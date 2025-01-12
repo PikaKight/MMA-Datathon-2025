@@ -2,6 +2,20 @@
 
 This is the Repository for the MMA 2025 Datathon
 
+## Setup
+
+To setup this repo, use a Python Virtual Environment and install the needed libraries from the requirements.txt file
+
+``` bash
+python -m venv .venv
+
+source .venv/Scripts/activate
+
+pip install -r requirements.txt
+
+```
+
+
 ## Challenge
 
 Build a dta-drive model that examines the relationship between rising living costs, economic development and supply chain performance to address the following:
