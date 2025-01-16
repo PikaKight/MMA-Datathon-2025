@@ -15,7 +15,6 @@ pip install -r requirements.txt
 
 ```
 
-
 ## Challenge
 
 Build a dta-drive model that examines the relationship between rising living costs, economic development and supply chain performance to address the following:
