@@ -6,7 +6,7 @@ This is the Repository for the MMA 2025 Datathon
 
 To setup this repo, use a Python Virtual Environment and install the needed libraries from the requirements.txt file
 
-``` bash
+```bash
 python -m venv .venv
 
 source .venv/Scripts/activate
@@ -14,6 +14,11 @@ source .venv/Scripts/activate
 pip install -r requirements.txt
 
 ```
+
+## Running the Code
+To run the Jupyter Notebook, please select the venv Python Interpreter as the kernal and press run all.
+
+To run the Python file, please use the command `python model.py`
 
 ## Challenge
 
@@ -43,53 +48,53 @@ Provide recommendations for businesses and policymakers to help ensure that supp
 
 ### Research
 
-- [ ] Research more about the topic
+- [x] Research more about the topic
 
 ### Analyze the data
 
-- [ ] Find the Correlational (Correlation Matrix)
+- [x] Find the Correlational (Correlation Matrix)
 
-- [ ] Graph the data to see the shape of data
+- [x] Graph the data to see the shape of data
 
-- [ ] Figure out the Target Variable
+- [x] Figure out the Target Variable
 
-- [ ] Figure out the appropriate Features (Columns)
+- [x] Figure out the appropriate Features (Columns)
 
-    - Create new Features if needed
+  - Create new Features if needed
 
-    - Drop Features if needed
+  - Drop Features if needed
 
 ### Create Model
 
 Create a Model to predict potential shifts in Supply chain management (SCM) practices to withstand economic challenges
 
-- [ ] Choose a few model types to make (i.e Linear, Log, Cluster, K-Mean, Tree, Neural)
+- [x] Choose a few model types to make (i.e Linear, Log, Cluster, K-Mean, Tree, Neural)
 
-- [ ] Create the Models
+- [x] Create the Models
 
-- [ ] Test and Evaluate
+- [x] Test and Evaluate
 
-- [ ] Choose the best model
+- [x] Choose the best model
 
-- [ ] Improve the model
+- [x] Improve the model
 
 ### Recommendations
 
-- [ ] Create Recommendations based on the data, insights, and model
+- [x] Create Recommendations based on the data, insights, and model
 
 ### Final Deliverables
 
-- [ ] Data Plan
+- [x] Data Plan
 
-    - Outline Methodology from data analysis
+  - Outline Methodology from data analysis
 
-- [ ] Data Analysis and Predictive Model
+- [x] Data Analysis and Predictive Model
 
-    - Document with the insights from the analysis and model outputs
+  - Document with the insights from the analysis and model outputs
 
-- [ ] Presentation
+- [x] Presentation
 
-    - Summery of the insights and recommendations
+  - Summery of the insights and recommendations
 
 ## Data
 
@@ -106,11 +111,13 @@ Create a Model to predict potential shifts in Supply chain management (SCM) prac
 - **Unemployment Rate**: Tracks economic stability and employment trends
 
 ### Supply Chain Metrics and Indices
+
 - **Producer Price Index (PPI)**: Measures changes in selling prices received by domestic producers for their output, directly reflecting production costs
 - **Logistics Performance Index (LPI)**: Assesses a country’s logistics environment, crucial for understanding supply chain resilience
 - **Freight Rate Indices**: Tracks shipping and transport costs, crucial as transportation is often impacted by cost-of-living changes
 - **Supply Chain Volatility Index**: Measures fluctuations in supply chain stability, helping identify which sectors are most affected by rising costs
 
 ### Household Income and Expenditure Data
+
 - **Average Household Income**: Provides insight into purchasing power and disposable income, impacting demand and supply chain dynamics
 - **Household Expenditure Data**: Helps identify consumer behavior changes in response to rising costs, which impact supply chain demand
